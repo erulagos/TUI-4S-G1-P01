@@ -1,0 +1,143 @@
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.cabezal{
+    background-color: #0055b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*------- DEFINICIONES -------*/
+.container-fluid{
+    margin: auto;
+    width: 100%;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+}
+.container-md{
+    margin: auto;
+    width: 1024px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+/*--------------------------------*/
+.menu-principal{
+    float: right;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu > li{
+    float: left;
+}
+.menu > li > a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.menu > li > a:hover{
+    font-weight: 500;
+}
+.active > a{
+    font-weight: 500 !important;
+}
+
+.col-4{
+    width: 33%;
+}
+footer{
+    background-color: #6C6D71;
+    height: 70px;
+}
+.col-4 > h3{
+    box-sizing: border-box;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.slider-principal{
+    background-image: url("../img/slider.jpeg");
+    background-color: red;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lema-slider{
+    margin-top: 140px;
+}
+.lema-slider > h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: #030303 1px 1px 1px;;
+}
+.noticias{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.recent-title > h3{
+    color: #0055b7;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0px;
+}
